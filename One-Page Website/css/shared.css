@@ -346,7 +346,7 @@ section {
     }
 }
 
-@media (min-width 1200px) {
+@media (min-width: 1200px) {
     .container {
         width: 1170px;
     }

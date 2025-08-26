@@ -1,0 +1,113 @@
+.photo-overlay {
+    filter: invert(1);
+}
+
+.photo-overlay:hover{
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.photo-container {
+    position: absolute;
+    margin: auto;
+    border: 10px solid gray;
+    border-radius: 20px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.footer-style {
+    text-align: center;
+    font-weight: bold;
+}
+
+table,th,td{
+    border-style: inset;
+    padding: auto;
+}
+
+th{
+    background-color: aqua;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: cyan;
+}
+
+.img-text{
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    z-index: 100;
+    font-size: larger;
+}
+
+.menu{
+    text-align: center;
+    display: inline;
+    color: aqua;
+    padding: 0%;
+}
+
+.menu li{
+    display: inline-block;
+    color: black;
+    position: relative;
+    padding: 10px 4%;
+    margin: 0% auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: grey;
+}
+
+.menu li:hover{
+    background-color: aqua;
+}
+
+.column{
+    background-color: grey;
+    color: blue;
+    float: left;
+    width: 10%;
+    height: 500px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover{
+    color: blue;
+}
+
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.video-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    font-size: larger;
+    color: purple;
+}
+
+@media screen and (max-width:600px) {
+    p{
+        color: red;
+    }
+}
